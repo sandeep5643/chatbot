@@ -32,3 +32,6 @@ It supports **rich markdown formatting**, left-right chat UI, and production-rea
 ```bash
 git clone https://github.com/sandeep5643/chatbot.git
 cd chatbot
+
+
+## ui and chat flow ready hai ab tisra step LLM Configuration for NVIDIA 

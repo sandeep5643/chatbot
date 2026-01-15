@@ -1,0 +1,37 @@
+{
+  "past_predictions": [
+    {
+      "timestamp": "2026-01-14T06:01:08.060331",
+      "demand_index": 135,
+      "supply_capacity": 5000,
+      "backlog": 1800,
+      "market_signal": "Stable",
+      "decision": "Prioritize backlog fulfillment before new orders"
+    },
+    {
+      "timestamp": "2026-01-14T07:05:29.414012",
+      "demand_index": 135,
+      "supply_capacity": 5000,
+      "backlog": 1800,
+      "market_signal": "Stable",
+      "decision": "Prioritize backlog fulfillment before new orders"
+    },
+    {
+      "timestamp": "2026-01-14T07:05:29.436651",
+      "demand_index": 135,
+      "supply_capacity": 5000,
+      "backlog": 1800,
+      "market_signal": "Stable",
+      "decision": "Prioritize backlog fulfillment before new orders"
+    },
+    {
+      "timestamp": "2026-01-14T07:13:32.262954",
+      "demand_index": 135,
+      "supply_capacity": 5000,
+      "backlog": 1800,
+      "market_signal": "Demand-led expansion signal",
+      "decision": "Prioritize backlog fulfillment before new orders"
+    }
+  ],
+  "confidence_score": 0.64
+}

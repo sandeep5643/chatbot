@@ -1,0 +1,12 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+.git
+.gitignore
+*.log
+vector_db/          # agar yeh folder mein large FAISS index hai jo runtime mein generate hota hai
+data/               # agar koi large data folder hai
+*.faiss             # FAISS files exclude if not needed in image
+*.pkl               # large pickle files if any

@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 from services.openai_service import generate_response
+import os
 
 app = Flask(__name__)
 
@@ -9,9 +10,15 @@ def index():
 
 @app.route("/api/chat", methods=["POST"])
 def chat():
-    user_msg = request.json.get("message", "")
+    data = request.get_json()
+    if not data or "message" not in data:
+        return jsonify({"reply": "Invalid request"}), 400
+
+    user_msg = data["message"]
+
+    # 🔥 PURE BRAIN CALL
     reply = generate_response(user_msg)
     return jsonify({"reply": reply})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+    app.run(debug=True)
