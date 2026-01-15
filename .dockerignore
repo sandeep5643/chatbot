@@ -1,31 +1,7 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environments
-venv/
-.venv/
-
-# Environment variables
+venv
+__pycache__
 .env
-
-# Git
-.git/
+.git
 .gitignore
-
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-
-# Cache
-.cache/
-.pytest_cache/
-
-# Logs
-*.log
+node_modules
+*.pyc
